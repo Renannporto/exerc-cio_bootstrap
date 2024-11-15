@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header,
+.pesquisar{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.titulo{
+    font-family: 'Denne Freakshow', sans-serif; 
+}
+
+.imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario{
+    background-color: rgb(207, 226, 255);
+    border-radius: 8px;
+}
+
+.button-cadastro{
+    display: flex;
+    justify-content: space-around;
+}
+
+.button-cadastro a{
+    text-decoration: none;
+}
+
+.ou{
+    display: flex;
+    justify-content: center;
+    margin: 42px;
+    max-width: 100%;
+    font-weight: normal;
+}
+
+.cadastro{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.icone{
+    width: 50px;
+    height: 50px;
+}
+
+.b-enviar{
+    margin-top: 26px;
+    width: 100%;
+}
+
+.perguntas{
+    margin-top: 26px;
+}
+
+.aceito-termo{
+    margin-top: 6px;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    margin-top: 26px;
+}
+
+input + label.error{
+    display: block;        /* Garante que a mensagem esteja em uma nova linha */
+    margin-top: 0.3rem;    /* Espaço entre o input e a mensagem */
+    margin-bottom: 0;      /* Remove qualquer margem extra que possa interferir */
+    color: red;           
+    font-size: 0.875rem;
+}
